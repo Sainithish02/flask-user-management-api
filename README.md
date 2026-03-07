@@ -4,27 +4,27 @@ A backend REST API built using Flask and SQLite that supports full CRUD operatio
 
 ## Features
 
-Create users (POST /users)
-Retrieve all users (GET /users)
-Retrieve a specific user (GET /users/<id>)
-Update user details (PUT /users/<id>)
-Delete a user (DELETE /users/<id>)
+- Create users (POST /users)
+- Retrieve all users (GET /users)
+- Retrieve a specific user (GET /users/<id>)
+- Update user details (PUT /users/<id>)
+- Delete a user (DELETE /users/<id>)
 
 ## Tech Stack
 
-Python
-Flask
-SQLite
-REST API
-JSON
+- Python
+- Flask
+- SQLite
+- REST API
+- JSON
 
 ## Project Structure
 
-app.py – Main Flask application
-database.py – Database connection
-models/ – Database query logic
-routes/ – API route definitions
-requirements.txt – Project dependencies
+app.py – Main Flask application  
+database.py – Database connection  
+models/ – Database query logic  
+routes/ – API route definitions  
+requirements.txt – Project dependencies  
 
 ## Example API Request
 
@@ -34,11 +34,16 @@ POST /users
 
 Request Body
 
-{ "username": "john", "email": "john@example.com" }
+{
+  "username": "john",
+  "email": "john@example.com"
+}
 
 Response
 
-{ "message": "user created" }
+{
+  "message": "user created"
+}
 
 ## How to Run the Project
 
@@ -64,5 +69,5 @@ http://127.0.0.1:5001
 
 ## Author
 
-Tadi Sai Nithish Reddy
+Tadi Sai Nithish Reddy  
 GitHub: https://github.com/Sainithish02/flask-user-management-api
