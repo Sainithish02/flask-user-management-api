@@ -4,19 +4,19 @@ This project is a backend REST API built using Flask and SQLite that supports fu
 
 ## Features
 
-- Create users (POST /users)
-- Retrieve all users (GET /users)
-- Retrieve a specific user (GET /users/<id>)
-- Update user details (PUT /users/<id>)
-- Delete a user (DELETE /users/<id>)
+Create users (POST /users)  
+Retrieve all users (GET /users)  
+Retrieve a specific user (GET /users/<id>)  
+Update user details (PUT /users/<id>)  
+Delete a user (DELETE /users/<id>)  
 
 ## Tech Stack
 
-- Python
-- Flask
-- SQLite
-- REST API
-- JSON
+Python  
+Flask  
+SQLite  
+REST API  
+JSON  
 
 ## Project Structure
 
@@ -32,36 +32,36 @@ Create User
 
 POST /users
 
-Request Body:
-{
-  "username": "john",
-  "email": "john@example.com"
+Request Body  
+{  
+  "username": "john",  
+  "email": "john@example.com"  
 }
 
-Response:
-{
-  "message": "user created"
+Response  
+{  
+  "message": "user created"  
 }
 
 ## How to Run the Project
 
-1. Clone the repository
+Clone the repository
 
 git clone https://github.com/Sainithish02/flask-user-management-api.git
 
-2. Go to the project folder
+Go to the project folder
 
 cd flask-user-management-api
 
-3. Install dependencies
+Install dependencies
 
 pip install -r requirements.txt
 
-4. Run the server
+Run the server
 
 python app.py
 
-Server runs at:
+Server runs at  
 http://127.0.0.1:5001
 
 ## Author
